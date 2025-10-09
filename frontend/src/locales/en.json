@@ -1,0 +1,182 @@
+{
+  "header": {
+    "title": "MG Stocks",
+    "nav": {
+      "dashboard": "Dashboard",
+      "portfolios": "Portfolios",
+      "watchlist": "Watchlist",
+      "community": "Community",
+      "discover": "Discover",
+      "screener": "Screener"
+    },
+    "search": {
+      "placeholder": "Search companies...",
+      "description": ""
+    },
+    "banner": {
+      "text": "Want a portfolio like this? Create your own to analyze and improve your investments",
+      "button": "Create my portfolio"
+    },
+    "login": "Log In"
+  },
+  "demo": {
+    "title": "Demo Portfolio",
+    "updated": "Updated about 2 hours ago",
+    "tabs": {
+      "holdings": "Holdings",
+      "returns": "Returns",
+      "narratives": "Narratives",
+      "updates": "Updates",
+      "dividends": "Dividends",
+      "analysis": "Analysis"
+    },
+    "performance": {
+      "title": "Performance vs market",
+      "totalValue": "Total Value",
+      "totalReturns": "Total Returns",
+      "annualised": "Annualised (IRR)",
+      "holdings": "holdings"
+    },
+    "snowflake": {
+      "title": "Portfolio Snowflake",
+      "description": "A past performer with good growth potential",
+      "holdings": "holdings"
+    },
+    "performanceChart": {
+      "title": "Performance vs market",
+      "portfolio": "Portfolio",
+      "sp500": "S&P 500 (US)",
+      "unrealizedReturns": "Unrealized Returns",
+      "realizedReturns": "Realized Returns",
+      "dividends": "Dividends",
+      "currencyImpact": "Currency Impact",
+      "estimatedDividends": "Estimated Dividends"
+    }
+  },
+  "company": {
+    "title": "Companies",
+    "sector": "Sector",
+    "year": "Year",
+    "revenue": "Revenue",
+    "profit": "Profit",
+    "assets": "Assets",
+    "liabilities": "Liabilities",
+    "dividends": "Dividends",
+    "viewDetails": "View Details",
+    "addToPortfolio": "Add to Portfolio",
+    "shares": "Shares",
+    "price": "Price",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "empty": "Your Portfolio is Empty",
+    "emptyDescription": "Add companies from the Companies tab to start building your portfolio",
+    "summary": {
+      "totalCompanies": "Total Companies",
+      "totalInvestment": "Total Investment"
+    },
+    "holdings": "Holdings",
+    "shares": "Shares",
+    "purchasePrice": "Purchase Price",
+    "totalValue": "Total Value",
+    "added": "Added",
+    "remove": "Remove",
+    "viewAnalysis": "View Analysis"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "welcome": "Welcome",
+    "logout": "Logout",
+    "stats": {
+      "title": "System Statistics",
+      "companies": "Companies",
+      "financials": "Financial Records",
+      "portfolios": "Portfolios",
+      "recentImports": "Last 7 days"
+    },
+    "csvImport": {
+      "title": "CSV File Import",
+      "description": "Import company financial data via CSV file"
+    },
+    "companyManagement": {
+      "title": "Company Management",
+      "description": "View existing companies and delete if needed",
+      "empty": "No companies found",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this company?"
+    },
+    "sectorDistribution": {
+      "title": "Sector Distribution"
+    }
+  },
+  "login": {
+    "title": "Admin Login",
+    "description": "Login with admin privileges to import CSV files",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "back": "← Back",
+    "example": "Example Credentials",
+    "usernamePlaceholder": "admin",
+    "passwordPlaceholder": "admin123"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success",
+    "close": "×",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "reset": "Reset"
+  },
+  "metrics": {
+    "valuation": "Valuation",
+    "futureGrowth": "Future Growth",
+    "pastPerformance": "Past Performance",
+    "financialHealth": "Financial Health",
+    "dividendQuality": "Dividend Quality"
+  },
+  "csv": {
+    "title": "Import Company Data",
+    "description": "Upload a CSV file containing company financial data to get started",
+    "dragDrop": "Click to select or drag & drop CSV file",
+    "dragActive": "Drop your CSV file here",
+    "selectFile": "Select File",
+    "upload": "Upload File",
+    "uploading": "Uploading...",
+    "clear": "Clear",
+    "format": {
+      "title": "CSV Format Requirements",
+      "description": "Your CSV file should contain the following columns:",
+      "columns": {
+        "company": "Company - Company name",
+        "ticker": "Ticker - Stock ticker symbol",
+        "sector": "Sector - Business sector",
+        "year": "Year - Financial year",
+        "revenue": "Revenue - Annual revenue",
+        "profit": "Profit - Annual profit",
+        "assets": "Assets - Total assets",
+        "liabilities": "Liabilities - Total liabilities",
+        "dividends": "Dividends - Dividend payments"
+      },
+      "example": "Example:",
+      "sample": "Company,Ticker,Sector,Year,Revenue,Profit,Assets,Liabilities,Dividends\nMongol Mining,MGLM,Mining,2024,100000,20000,50000,10000,2000\nErdenet Copper,ERDC,Mining,2024,200000,40000,150000,50000,5000"
+    }
+  }
+}

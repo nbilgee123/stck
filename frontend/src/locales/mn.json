@@ -1,0 +1,182 @@
+{
+  "header": {
+    "title": "MG Stocks",
+    "nav": {
+      "dashboard": "Хяналтын самбар",
+      "portfolios": "Портфолио",
+      "watchlist": "Хянах жагсаалт",
+      "community": "Олон нийт",
+      "discover": "Нээх",
+      "screener": "Шүүгч"
+    },
+    "search": {
+      "placeholder": "Компани хайх...",
+      "description": ""
+    },
+    "banner": {
+      "text": "Ийм портфолио хүсэж байна уу? Өөрийн хөрөнгө оруулалтыг шинжилж, сайжруулахын тулд үүсгээрэй",
+      "button": "Миний портфолио үүсгэх"
+    },
+    "login": "Нэвтрэх"
+  },
+  "demo": {
+    "title": "Demo Portfolio",
+    "updated": "2 цагийн өмнө шинэчлэгдсэн",
+    "tabs": {
+      "holdings": "Эзэмшил",
+      "returns": "Өгөөж",
+      "narratives": "Түүх",
+      "updates": "Шинэчлэл",
+      "dividends": "Ногдол ашиг",
+      "analysis": "Шинжилгээ"
+    },
+    "performance": {
+      "title": "Зах зээлтэй харьцуулсан гүйцэтгэл",
+      "totalValue": "Нийт үнэ цэнэ",
+      "totalReturns": "Нийт өгөөж",
+      "annualised": "Жилийн дундаж (IRR)",
+      "holdings": "эзэмшил"
+    },
+    "snowflake": {
+      "title": "Портфолио Snowflake",
+      "description": "Сайн өсөлтийн боломжтой өнгөрсөн гүйцэтгэлтэй",
+      "holdings": "эзэмшил"
+    },
+    "performanceChart": {
+      "title": "Зах зээлтэй харьцуулсан гүйцэтгэл",
+      "portfolio": "Портфолио",
+      "sp500": "S&P 500 (US)",
+      "unrealizedReturns": "Хэрэгжээгүй өгөөж",
+      "realizedReturns": "Хэрэгжсэн өгөөж",
+      "dividends": "Ногдол ашиг",
+      "currencyImpact": "Валютын нөлөө",
+      "estimatedDividends": "Тооцоолсон ногдол ашиг"
+    }
+  },
+  "company": {
+    "title": "Компаниуд",
+    "sector": "Салбар",
+    "year": "Жил",
+    "revenue": "Орлого",
+    "profit": "Ашиг",
+    "assets": "Хөрөнгө",
+    "liabilities": "Өр төлбөр",
+    "dividends": "Ногдол ашиг",
+    "viewDetails": "Дэлгэрэнгүй харах",
+    "addToPortfolio": "Портфолиод нэмэх",
+    "shares": "Хувь",
+    "price": "Үнэ",
+    "add": "Нэмэх",
+    "cancel": "Цуцлах"
+  },
+  "portfolio": {
+    "title": "Портфолио",
+    "empty": "Таны портфолио хоосон байна",
+    "emptyDescription": "Портфолио үүсгэхийн тулд Компаниуд табаас компани нэмнэ үү",
+    "summary": {
+      "totalCompanies": "Нийт компани",
+      "totalInvestment": "Нийт хөрөнгө оруулалт"
+    },
+    "holdings": "Эзэмшил",
+    "shares": "Хувь",
+    "purchasePrice": "Авах үнэ",
+    "totalValue": "Нийт үнэ цэнэ",
+    "added": "Нэмэгдсэн",
+    "remove": "Устгах",
+    "viewAnalysis": "Шинжилгээ харах"
+  },
+  "admin": {
+    "title": "Админ панел",
+    "welcome": "Тавтай морил",
+    "logout": "Гарах",
+    "stats": {
+      "title": "Системийн статистик",
+      "companies": "Компани",
+      "financials": "Санхүүгийн бичлэг",
+      "portfolios": "Портфолио",
+      "recentImports": "Сүүлийн 7 хоног"
+    },
+    "csvImport": {
+      "title": "CSV файл импорт",
+      "description": "Компанийн санхүүгийн өгөгдлийг CSV файлаар импорт хийнэ үү"
+    },
+    "companyManagement": {
+      "title": "Компаниудын удирдлага",
+      "description": "Одоо байгаа компаниудыг харж, устгах боломжтой",
+      "empty": "Компани олдсонгүй",
+      "delete": "Устгах",
+      "confirmDelete": "Энэ компанийг устгахдаа итгэлтэй байна уу?"
+    },
+    "sectorDistribution": {
+      "title": "Салбараар тархалт"
+    }
+  },
+  "login": {
+    "title": "Админ нэвтрэх",
+    "description": "CSV импорт хийх эрхтэй хүн нэвтрэнэ үү",
+    "username": "Хэрэглэгчийн нэр",
+    "password": "Нууц үг",
+    "login": "Нэвтрэх",
+    "loggingIn": "Нэвтэрч байна...",
+    "back": "← Буцах",
+    "example": "Жишээ эрх",
+    "usernamePlaceholder": "admin",
+    "passwordPlaceholder": "admin123"
+  },
+  "common": {
+    "loading": "Ачаалж байна...",
+    "error": "Алдаа гарлаа",
+    "success": "Амжилттай",
+    "close": "×",
+    "save": "Хадгалах",
+    "cancel": "Цуцлах",
+    "delete": "Устгах",
+    "edit": "Засварлах",
+    "add": "Нэмэх",
+    "search": "Хайх",
+    "filter": "Шүүх",
+    "sort": "Эрэмбэлэх",
+    "export": "Экспорт хийх",
+    "import": "Импорт хийх",
+    "refresh": "Сэргээх",
+    "back": "Буцах",
+    "next": "Дараах",
+    "previous": "Өмнөх",
+    "submit": "Илгээх",
+    "reset": "Арилгах"
+  },
+  "metrics": {
+    "valuation": "Үнэлгээ",
+    "futureGrowth": "Ирээдүйн өсөлт",
+    "pastPerformance": "Өнгөрсөн гүйцэтгэл",
+    "financialHealth": "Санхүүгийн эрүүл мэнд",
+    "dividendQuality": "Ногдол ашигийн чанар"
+  },
+  "csv": {
+    "title": "Компанийн өгөгдөл импорт",
+    "description": "Компанийн санхүүгийн өгөгдлийг CSV файлаар импорт хийж эхлэх",
+    "dragDrop": "CSV файл сонгох эсвэл энд чирэх",
+    "dragActive": "CSV файлыг энд унагана уу",
+    "selectFile": "Файл сонгох",
+    "upload": "Файл оруулах",
+    "uploading": "Оруулж байна...",
+    "clear": "Арилгах",
+    "format": {
+      "title": "CSV форматын шаардлага",
+      "description": "Таны CSV файл дараах багана агуулсан байх ёстой:",
+      "columns": {
+        "company": "Компани - Компанийн нэр",
+        "ticker": "Ticker - Хувьцааны тэмдэг",
+        "sector": "Салбар - Бизнесийн салбар",
+        "year": "Жил - Санхүүгийн жил",
+        "revenue": "Орлого - Жилийн орлого",
+        "profit": "Ашиг - Жилийн ашиг",
+        "assets": "Хөрөнгө - Нийт хөрөнгө",
+        "liabilities": "Өр төлбөр - Нийт өр төлбөр",
+        "dividends": "Ногдол ашиг - Ногдол ашгийн төлбөр"
+      },
+      "example": "Жишээ:",
+      "sample": "Company,Ticker,Sector,Year,Revenue,Profit,Assets,Liabilities,Dividends\nMongol Mining,MGLM,Mining,2024,100000,20000,50000,10000,2000\nErdenet Copper,ERDC,Mining,2024,200000,40000,150000,50000,5000"
+    }
+  }
+}
