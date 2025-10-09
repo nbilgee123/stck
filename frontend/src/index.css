@@ -92,6 +92,7 @@ code {
 
 .nav-link {
   color: #0a0a0a; /* Хар өнгө - background-тай адил */
+  background-color: #6c757d;
   text-decoration: none;
   font-weight: 500;
   padding: 8px 16px;
@@ -103,7 +104,7 @@ code {
 
 .nav-link:hover {
   color: #1a1a1a; /* Шингэн хар */
-  background-color: #f0f0f0; /* Цагаандуу дэвсгэр */
+  background-color: #a0a0a0; /* Цагаандуу дэвсгэр */
 }
 
 .nav-link.active {
@@ -134,8 +135,8 @@ code {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  max-width: 350px;
+  min-width: 80px;
+  max-width: 150px;
 }
 
 .search-input {
@@ -366,6 +367,7 @@ code {
 
 .metric-card {
   text-align: center;
+  /* background: #33373b; */
 }
 
 .metric-value {
@@ -1179,7 +1181,7 @@ code {
 }
 
 .metric-card {
-  background: #f8f9fa;
+  background: #535455;
   padding: 1rem;
   border-radius: 8px;
   text-align: center;
