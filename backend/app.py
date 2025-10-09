@@ -14,13 +14,13 @@ CORS(app, origins=[
     'http://localhost:3000',  # Development
     'https://mongolian-stocks-frontend.onrender.com'  # Production frontend URL
 ], supports_credentials=True)
-app.secret_key = 'your-secret-key-change-this-in-production'
+app.secret_key = os.getenv('SECRET_KEY', 'your-secret-key-change-this-in-production')
 
 DB = "swst_demo.db"
 
 # Admin credentials (in production, use environment variables)
-ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "admin123"  # Change this in production
+ADMIN_USERNAME = os.getenv('ADMIN_USERNAME', 'admin')
+ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD', 'admin123')  # Change this in production
 
 def init_db():
     """Initialize the database with required tables"""
