@@ -328,7 +328,7 @@ function AppContent() {
       <div className="App">
         <div className="container">
           <div className="header">
-            <h1>Simply Wall St Demo - Админ</h1>
+            <h1>MG Demo - Админ</h1>
             <p>Монголын хувьцааны портфолио шинжилгээ</p>
           </div>
           <AdminPanel user={user} onLogout={handleLogout} />
@@ -342,7 +342,7 @@ function AppContent() {
     <div className="App">
       <div className="container">
         <div className="header">
-          <h1>Simply Wall St Demo</h1>
+          <h1>MG Demo</h1>
           <p>Монголын хувьцааны портфолио шинжилгээ</p>
           <div className="user-info">
             <span>Тавтай морил, {user.username}!</span>
