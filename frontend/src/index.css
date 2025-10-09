@@ -91,9 +91,9 @@ code {
 }
 
 .nav-link {
-  color: #e0e0e0;
+  color: #b8b8b8;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   padding: 8px 0;
   transition: all 0.2s;
   white-space: nowrap;
@@ -772,19 +772,19 @@ code {
 }
 
 .summary-label {
-  color: #d0d0d0;
+  color: #a0a0a0;
   font-size: 12px;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .summary-value {
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-bottom: 4px;
-  color: #ffffff;
+  color: #e8e8e8;
 }
 
 .summary-value.positive {
@@ -796,16 +796,16 @@ code {
 }
 
 .summary-detail {
-  color: #b0b0b0;
+  color: #909090;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 4px;
 }
 
 .summary-percentage {
   font-size: 14px;
-  font-weight: 600;
-  color: #e0e0e0;
+  font-weight: 500;
+  color: #c0c0c0;
 }
 
 .summary-percentage.positive {
