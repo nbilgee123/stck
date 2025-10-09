@@ -91,7 +91,7 @@ code {
 }
 
 .nav-link {
-  color: #a0a0a0; /* Зөөлөн саарал */
+  color: #0a0a0a; /* Хар өнгө - background-тай адил */
   text-decoration: none;
   font-weight: 500;
   padding: 8px 16px;
@@ -102,7 +102,8 @@ code {
 }
 
 .nav-link:hover {
-  color: #ffffff; /* Цагаан болгох */
+  color: #1a1a1a; /* Шингэн хар */
+  background-color: #f0f0f0; /* Цагаандуу дэвсгэр */
 }
 
 .nav-link.active {
