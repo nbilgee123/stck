@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const PerformanceChart = () => {
@@ -46,11 +46,11 @@ const PerformanceChart = () => {
     return `${monthNames[parseInt(month) - 1]} ${year.slice(-2)}`;
   };
 
-  const formatTooltipValue = (value, name) => {
-    const formattedValue = value > 0 ? `+${value.toFixed(1)}%` : `${value.toFixed(1)}%`;
-    const label = name === 'portfolio' ? 'Portfolio' : 'S&P 500 (US)';
-    return [formattedValue, label];
-  };
+  // const formatTooltipValue = (value, name) => {
+  //   const formattedValue = value > 0 ? `+${value.toFixed(1)}%` : `${value.toFixed(1)}%`;
+  //   const label = name === 'portfolio' ? 'Portfolio' : 'S&P 500 (US)';
+  //   return [formattedValue, label];
+  // };
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {

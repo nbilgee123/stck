@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import CompanyList from './components/CompanyList';
-import CompanyDetail from './components/CompanyDetail';
+// import CompanyDetail from './components/CompanyDetail';
 import Portfolio from './components/Portfolio';
 import CSVUpload from './components/CSVUpload';
 import Login from './components/Login';
@@ -171,12 +171,12 @@ function AppContent() {
                 
                 <nav>
                   <ul className="nav-menu">
-                    <li className="nav-item"><a href="#" className="nav-link">{t('header.nav.dashboard')}</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link active">{t('header.nav.portfolios')}</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">{t('header.nav.watchlist')}</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">{t('header.nav.community')}</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">{t('header.nav.discover')}</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">{t('header.nav.screener')}</a></li>
+                    <li className="nav-item"><button className="nav-link">{t('header.nav.dashboard')}</button></li>
+                    <li className="nav-item"><button className="nav-link active">{t('header.nav.portfolios')}</button></li>
+                    <li className="nav-item"><button className="nav-link">{t('header.nav.watchlist')}</button></li>
+                    <li className="nav-item"><button className="nav-link">{t('header.nav.community')}</button></li>
+                    <li className="nav-item"><button className="nav-link">{t('header.nav.discover')}</button></li>
+                    <li className="nav-item"><button className="nav-link">{t('header.nav.screener')}</button></li>
                   </ul>
                 </nav>
                 
