@@ -9,7 +9,11 @@ import hashlib
 import secrets
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True)  # Enable CORS for React frontend
+# CORS settings for development and production
+CORS(app, origins=[
+    'http://localhost:3000',  # Development
+    'https://mongolian-stocks-frontend.onrender.com'  # Production frontend URL
+], supports_credentials=True)
 app.secret_key = 'your-secret-key-change-this-in-production'
 
 DB = "swst_demo.db"

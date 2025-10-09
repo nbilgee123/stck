@@ -23,7 +23,9 @@ function AppContent() {
   const [authLoading, setAuthLoading] = useState(true);
   const { t } = useLanguage();
 
-  const API_BASE = 'http://localhost:5000';
+  const API_BASE = process.env.NODE_ENV === 'production' 
+    ? 'https://mongolian-stocks-backend.onrender.com' 
+    : 'http://localhost:5000';
 
   useEffect(() => {
     checkAuthStatus();
