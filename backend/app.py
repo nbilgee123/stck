@@ -12,7 +12,8 @@ app = Flask(__name__)
 # CORS settings for development and production
 CORS(app, origins=[
     'http://localhost:3000',  # Development
-    'https://mongolian-stocks-frontend.onrender.com'  # Production frontend URL
+    'https://mongolian-stocks-frontend.onrender.com',  # Production frontend URL
+    'https://stck-frontend.onrender.com'  # Alternative frontend URL
 ], supports_credentials=True)
 app.secret_key = os.getenv('SECRET_KEY', 'your-secret-key-change-this-in-production')
 

@@ -24,7 +24,7 @@ function AppContent() {
   const { t } = useLanguage();
 
   const API_BASE = process.env.NODE_ENV === 'production' 
-    ? 'https://mongolian-stocks-backend.onrender.com' 
+    ? 'https://stck.onrender.com' 
     : 'http://localhost:5000';
 
   useEffect(() => {
