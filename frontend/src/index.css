@@ -91,9 +91,9 @@ code {
 }
 
 .nav-link {
-  color: #ccc;
+  color: #e0e0e0;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px 0;
   transition: all 0.2s;
   white-space: nowrap;
@@ -772,16 +772,19 @@ code {
 }
 
 .summary-label {
-  color: #999;
+  color: #d0d0d0;
   font-size: 12px;
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .summary-value {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 4px;
+  color: #ffffff;
 }
 
 .summary-value.positive {
@@ -792,9 +795,17 @@ code {
   color: #ff4444;
 }
 
+.summary-detail {
+  color: #b0b0b0;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
 .summary-percentage {
   font-size: 14px;
   font-weight: 600;
+  color: #e0e0e0;
 }
 
 .summary-percentage.positive {
