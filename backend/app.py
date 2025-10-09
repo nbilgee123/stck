@@ -9,6 +9,11 @@ import hashlib
 import secrets
 
 app = Flask(__name__)
+
+# Configure Flask for production
+app.config['DEBUG'] = False
+app.config['ENV'] = 'production'
+
 # CORS settings for development and production
 CORS(app, origins=[
     'http://localhost:3000',  # Development
