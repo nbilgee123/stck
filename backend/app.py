@@ -291,6 +291,20 @@ def import_csv():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "Mongolian Stocks Portfolio API",
+        "version": "1.0.0",
+        "endpoints": {
+            "companies": "/companies",
+            "financials": "/financials",
+            "portfolio": "/portfolio",
+            "login": "/login",
+            "admin": "/admin/stats"
+        }
+    })
+
 @app.route("/companies", methods=["GET"])
 def get_companies():
     """Get list of all companies"""
