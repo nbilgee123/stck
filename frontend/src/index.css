@@ -91,21 +91,24 @@ code {
 }
 
 .nav-link {
-  color: #b8b8b8;
+  color: #a0a0a0; /* Зөөлөн саарал */
   text-decoration: none;
   font-weight: 500;
-  padding: 8px 0;
+  padding: 8px 16px;
   transition: all 0.2s;
   white-space: nowrap;
   font-size: 14px;
+  border-radius: 6px;
 }
 
 .nav-link:hover {
-  color: white;
+  color: #ffffff; /* Цагаан болгох */
 }
 
 .nav-link.active {
-  color: white;
+  background-color: #2a303c; /* Бараан саарал дэвсгэр */
+  color: #ffffff; /* Цагаан текст */
+  font-weight: 600;
 }
 
 .nav-link.active::after {
@@ -135,11 +138,11 @@ code {
 }
 
 .search-input {
-  background: #2a2a2a;
-  border: 1px solid #444;
+  background: #2a303c; /* Бараан саарал дэвсгэр */
+  border: 1px solid #3a404c; /* Бараан саарал хүрээ */
   border-radius: 6px;
   padding: 10px 12px 10px 36px;
-  color: white;
+  color: #e0e0e0; /* Цагаандуу текст */
   font-size: 14px;
   width: 100%;
   transition: border-color 0.2s;
@@ -154,12 +157,12 @@ code {
 .search-icon {
   position: absolute;
   left: 12px;
-  color: #666;
+  color: #4a90e2; /* Хөх өнгийн icon */
   font-size: 14px;
 }
 
 .search-placeholder {
-  color: #666;
+  color: #888; /* Зөөлөн саарал placeholder */
   font-size: 12px;
   margin-top: 4px;
   text-align: right;
